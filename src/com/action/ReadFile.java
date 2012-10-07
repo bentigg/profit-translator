@@ -71,8 +71,6 @@ public class ReadFile {
 						next = next.replace("\"","");
 					}
 					
-					
-
 					switch (tokenNumber) {
 					case 1:  //date
 						generic.setDate(next);
@@ -204,7 +202,6 @@ public class ReadFile {
 				tokenNumber = 0;
 				genericList.add(generic);
 			}
-			
 			
 		}
 		catch(Exception e)
