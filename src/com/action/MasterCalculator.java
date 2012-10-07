@@ -132,9 +132,4 @@ public class MasterCalculator {
 	public void setCalcRefund(RefundCalculator calcRefund) {
 		this.calcRefund = calcRefund;
 	}
-	
-	
-	
-	
-
 }
